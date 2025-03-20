@@ -136,7 +136,7 @@ public class PolynomialMap implements Polynomial {
 
             } else if (mono.equals("x")) {
                 deg = 1;
-                mul = Double.parseDouble(sign + "1");;
+                mul = Double.parseDouble(sign + "1");
 
             } else {
                 String[] tokens = mono.split("x\\^|x");

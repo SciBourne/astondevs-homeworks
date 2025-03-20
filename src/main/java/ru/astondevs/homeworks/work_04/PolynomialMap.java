@@ -62,9 +62,9 @@ public class PolynomialMap implements Polynomial {
 
             double absMul = Math.abs(mul);
 
-            String sign ="";
             String multiplier = "";
-            String varDegree = "";
+            String sign;
+            String varDegree;
 
             if (i == 0) {
                 sign = "";
